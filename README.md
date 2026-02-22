@@ -10,8 +10,11 @@ Vote on-chain via Soroban smart contract. Level 2 Stellar challenge.
 - 3 error types: wallet not found, user rejected, insufficient balance
 
 ## Contract
-- **Address:** YOUR_CONTRACT_ID_HERE
-- **Explorer:** https://stellar.expert/explorer/testnet/contract/YOUR_CONTRACT_ID
+- **Address:** CBLNNLUJ2YM2MTQHJ7M6WLQ7KIPKRVOLLZWZYUW7IJEHIR246S636B5W
+- **Explorer:** https://stellar.expert/explorer/testnet/contract/CBLNNLUJ2YM2MTQHJ7M6WLQ7KIPKRVOLLZWZYUW7IJEHIR246S636B5W
+
+## Live Deployment
+https://stellar-poll.vercel.app/
 
 ## Setup
 ```bash
@@ -34,4 +37,12 @@ npm run build && npx vercel --prod
 ```
 
 ## Screenshots
-> wallet modal, poll UI, confirmed tx hash
+> wallet modal
+[Wallet Modal](./wallets.png)
+
+> poll UI 
+[Poll UI](./deployedcontract.png)
+
+> confirmed tx hash
+[Confirmed TX Hash](./contractcall.png)
+
